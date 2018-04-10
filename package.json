@@ -7,15 +7,14 @@
     "start-prod": "REACT_APP_CHROMATIC_ENV=production yarn start",
     "build": "react-scripts build",
     "storybook": "../../node_modules/.bin/start-storybook -p 6006",
-    "chromatic": "CHROMATIC_INDEX_URL=http://localhost:3007 CHROMATIC_CREATE_TUNNEL=false  chromatic test -- --storybook-addon --app-code 'vzpjvok8iz'",
+    "chromatic": "CHROMATIC_INDEX_URL=http://localhost:3007 CHROMATIC_CREATE_TUNNEL=false  chromatic test -- --storybook-addon --app-code 'xc8t61unk1'",
     "chromatic-staging": "CHROMATIC_INDEX_URL=https://staging-www.chromaticqa.com CHROMATIC_TUNNEL_URL=http://staging-tunnel.chromaticqa.com chromatic test -- --storybook-addon --app-code 'mpm7osoy9sa'",
-    "chromatic-prod": "chromatic test  -- --storybook-addon --app-code '80a9kcb1fim'",
-    "chromatic-prod-zol": "npm run chromatic -- --app-code 'x6q53bw6i3d'",
-    "chromatic-zol": "CHROMATIC_INDEX_URL=http://localhost:3007 CHROMATIC_CREATE_TUNNEL=false chromatic test -- --storybook-addon --app-code 'ofpj3pvqg0a'"
+    "chromatic-prod": "chromatic test  -- --storybook-addon --app-code '80a9kcb1fim'"
   },
   "dependencies": {
     "milligram": "^1.3.0",
     "react": "^16.0",
+    "react-chromatic": "^0.8.1",
     "react-dom": "^16.0"
   },
   "devDependencies": {
