@@ -7940,7 +7940,7 @@ stealthy-require@^1.1.0:
 
 storybook-chromatic@chromaui/storybook-chromatic#1435-windows-support:
   version "1.0.3-beta.0"
-  resolved "https://codeload.github.com/chromaui/storybook-chromatic/tar.gz/82e25625d347c3c3e0c648c23b7533cb1ab6e8c8"
+  resolved "https://codeload.github.com/chromaui/storybook-chromatic/tar.gz/91128f0df667ada73082b84ccac64324ed331617"
   dependencies:
     "@chromaui/localtunnel" "1.9.1-chromatic.2"
     apollo-fetch "^0.6.0"
